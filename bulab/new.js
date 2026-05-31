@@ -10,7 +10,7 @@ let next=document.querySelector('#btn2');
 
 if(next){
     next.addEventListener("pointerdown",()=>{
-        window.location.href='index.html';
+        window.location.href='start.html';
         localStorage.setItem('userMessage', input.value)
     })
 }
