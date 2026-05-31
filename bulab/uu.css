@@ -1,0 +1,52 @@
+body{
+  background-image: url('ChatGPT\ Image\ May\ 31\,\ 2026\,\ 07_41_49\ PM.png');
+  background-size: cover;
+  display:flex;
+  justify-content: center;
+}
+.input, .bton{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.input{
+  margin-top:4rem;
+}
+input{
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+}
+.bton{
+  margin-top: 2rem;
+}
+input, button{
+  width: 250px;
+  height: 40px;
+  border-radius: 0.5rem;
+  outline: none;
+}
+input:focus{
+  transform:scale(1.08);
+}
+button{
+  border-radius:2rem;
+}
+.box{
+  height: 250px;
+  width: 350px;
+  margin-top: 16rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(12px);              /* blurs what's behind it */
+  -webkit-backdrop-filter: blur(12px);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+input::placeholder{
+  transition: all 0.3s ease;
+}
+input:focus::placeholder{
+  transform: translateY(-35px);
+}
