@@ -37,6 +37,3 @@ if(btn){
         ev++;
     })
 }
-
-
-//new htmml

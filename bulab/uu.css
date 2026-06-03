@@ -19,6 +19,12 @@ input{
   transition-property: all;
   transition-duration: 0.1s;
   transition-timing-function: ease-in;
+  padding: 5px;
+  width: 250px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
 }
 .bton{
   margin-top: 2rem;
@@ -31,9 +37,24 @@ input, button{
 }
 input:focus{
   transform:scale(1.08);
+    box-shadow:
+    0 0 10px rgba(0, 0, 0, 1),
+    0 0 30px rgba(0, 0, 0, 0.8),
+    0 0 60px rgba(0, 0, 0, 0.5),
+    inset 0 0 10px rgba(255, 255, 255, 0.05)
 }
+
 button{
   border-radius:2rem;
+  padding: 12px 48px;
+  font-size: 15px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  letter-spacing: 1px;
 }
 .box{
   height: 250px;
