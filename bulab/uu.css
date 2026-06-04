@@ -23,8 +23,9 @@ input{
   width: 250px;
   border: 2px solid transparent;
   border-radius: 10px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.13);
   backdrop-filter: blur(10px);
+  color: whitesmoke;
 }
 .bton{
   margin-top: 2rem;
