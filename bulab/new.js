@@ -23,7 +23,7 @@ if(btn){
             if(message!==''){
                 el.innerText=message;
             }else{
-                el.innerText='Tum sab lawde ho';
+                el.innerText='Chamchamati roshni';
             }
             btn.innerText="Off";
         }else{
